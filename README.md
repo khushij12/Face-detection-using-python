@@ -6,16 +6,16 @@ The domain of this project is Image Processing. So whole project works around de
 So in short we are playing with images and videos. Also we have try to implement GUI using tkinter. 
 
 # Features:-
--	Detect face from Image
+-	Detect face from Image:-
     This function will detect face from the photo provided by the user.
 
--	Detect face from Face-Cam
+-	Detect face from Face-Cam:-
     In this, we are detecting face from System Face-Cam.
 
--	Overlay
+-	Overlay:-
     The meaning of overlay is to cover something with a layer of something. So, similar kind of     thing we are donig here. Here user will get three option to use overlay feature like doing overlay in live video or recorded video.
 
--	Fun cat guessing game 
+-	Fun cat guessing game:-
 As we believe in saying "All work and no play makes Jack a dull boy" so here we also have a game in which a user has to detect cat faces from the randomly picked images.
 
 # Packages included in this project:
