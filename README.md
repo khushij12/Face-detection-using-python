@@ -1,9 +1,9 @@
 # Face-detection-using-python
-This project was made during assignment of PSC and group of 3 people. It includes face detection and masking property.
+
 
 # About
 The domain of this project is Image Processing. So whole project works around detecting face from given media. 
-So in short we are playing with images and videos. Also we have try to implement GUI using tkinter. 
+Also we have try to implement GUI using tkinter. 
 
 # Features:-
 -	Detect face from Image:-
