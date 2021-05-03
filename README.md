@@ -6,5 +6,4 @@ This projet is written in python and for GUI we have used tkinter. This project 
 It also consist of overlay features and one fun game that everyone should play once.
 
 Some glimpse of project:-
-
-
+![Home Page](https://github.com/khushij12/Face-detection-using-python/blob/master/Home.PNG)
