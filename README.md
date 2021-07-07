@@ -34,16 +34,16 @@ Here we just need to execute main.py and then we just need to go with the flow o
 Some glimpse of project:-
 
 # Home Page:
-![Home Page](https://github.com/khushij12/Face-detection-using-python/blob/master/Demo/1.png)
+![Home Page](https://github.com/khushij12/Face-detection-using-python/blob/main/Images%20of%20Output/1.png)
 
 # Browse option:
-![1](https://github.com/khushij12/Face-detection-using-python/blob/master/Demo/2.png)
+![1](https://github.com/khushij12/Face-detection-using-python/blob/main/Images%20of%20Output/2.png)
 
 # Face detection from Image
-![2](https://github.com/khushij12/Face-detection-using-python/blob/master/Demo/3.png)
+![2](https://github.com/khushij12/Face-detection-using-python/blob/main/Images%20of%20Output/3.png)
 
 # Overlay of video
-![3](https://github.com/khushij12/Face-detection-using-python/blob/master/Demo/5.png)
+![3](https://github.com/khushij12/Face-detection-using-python/blob/main/Images%20of%20Output/5.png)
 
 
 
