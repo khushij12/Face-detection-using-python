@@ -1,7 +1,7 @@
 # Face-detection-using-python
 
 
-# About
+# About:-
 The domain of this project is Image Processing. So whole project works around detecting face from given media. 
 Also we have try to implement GUI using tkinter. 
 
@@ -18,7 +18,7 @@ Also we have try to implement GUI using tkinter.
 -	Fun cat guessing game:-
 As we believe in saying "All work and no play makes Jack a dull boy" so here we also have a game in which a user has to detect cat faces from the randomly picked images.
 
-# Packages included in this project:
+# Packages included in this project:-
 -	cv2
 -	tkinter
 -	numpy
@@ -28,7 +28,7 @@ As we believe in saying "All work and no play makes Jack a dull boy" so here we 
       -    Image
       -    ImageTk
 
-# Process to execute the project:
+# Process to execute the project:-
 Here we just need to execute main.py and then we just need to go with the flow of instruction given at a time by the window.
 
 Some glimpse of project:-
