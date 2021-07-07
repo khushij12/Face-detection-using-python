@@ -180,7 +180,7 @@ def overlay():
 
 def game():
     cat_cascade = cv2.CascadeClassifier("visionary.net_cat_cascade_web_LBP.xml")
-    images = ['game1.jpg', 'game2.jpg', 'game3.jpg', 'game4.jpg', 'game5.jpg']
+    images = ['Images & videos/game1.jpg', 'Images & videos/game2.jpg', 'Images & videos/game3.jpg', 'Images & videos/game4.jpg', 'Images & videos/game5.jpg']
 
     def play():
         win4.destroy()
@@ -208,7 +208,7 @@ def game():
             cv2.destroyAllWindows()
             
             if(int(INPUT) == catnum):
-                vid = cv2.VideoCapture('won1.mp4')
+                vid = cv2.VideoCapture('Images & videos/won1.mp4')
                 while (vid.isOpened()):
 
                     ret, frame = vid.read()
@@ -225,7 +225,7 @@ def game():
                 cv2.destroyAllWindows()
             else:
                 
-                vid = cv2.VideoCapture('lose.mp4')
+                vid = cv2.VideoCapture('Images & videos/lose.mp4')
                 while (vid.isOpened()):
 
                     ret, frame = vid.read()
@@ -306,7 +306,7 @@ root.configure(background=bg_color)
 
 
 
-bgImage = tk.PhotoImage(file="10.png")
+bgImage = tk.PhotoImage(file="Images & videos/10.png")
 width = bgImage.width()
 height = bgImage.height()
 
