@@ -1,0 +1,36 @@
+name: Python Application CI/CD
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9
+
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Build and package application
+        run: |
+          # Add commands to build your application and package it
+          # For example, if you're using PyInstaller:
+          pyinstaller --onefile your_script.py
+
+      - name: Publish artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: Application
+          path: dist/your_script.exe  # Modify the path based on your application's packaging
