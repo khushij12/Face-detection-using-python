@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import cv2
 import tkinter as tk
 import numpy as np
